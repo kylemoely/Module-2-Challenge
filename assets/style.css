@@ -3,45 +3,58 @@ body{
     position:relative;
 }
 header{
-    background-color: darkslateblue;
-    display:block;
-    position:relative;
+    background-color: rgb(66, 65, 73);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     width:100%;
-    height:100px;
+    height:120px;
 }
 
 header h1{
     font-size:48px;
-    color:aliceblue;
-    position:absolute;
-    left:10px;
+    color:rgb(66, 65, 73);
+    height:60%;
+    background-color:hsl(181, 42%, 73%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header ul{
-    position:absolute;
-    left:900px;
-    top:55px;
+    margin-right:50px;
 }
 
 header ul li:hover{
     cursor:grab;
-    text-decoration: underline;
 }
 
 header ul li{
     display:inline;
     font-size:25px;
     margin:20px;
-    color:aliceblue;
+    text-decoration:underline;
+    text-decoration-thickness:4px;
+    text-underline-offset: 5px;
+    color:hsl(181, 42%, 73%);
 } 
 
-.sidebar{
-    position:absolute;
-    width:305px;
-    height:99%;
-    background-color:darkslateblue;
-    z-index:0;
+.filler{
+    display:block;
+    position:relative;
+    background-color:rgb(111, 111, 96);
+    height:215px;
+}
+
+.subtitle{
+    background-color:hsl(181, 42%, 73%);
+    font-size:35px;
+    font-weight:bold;
+    color:rgb(66, 65, 73);
+    display:block;
+    float:right;
+    margin-top:140px;
+    margin-right:100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 #about-me-img{
@@ -51,6 +64,7 @@ header ul li{
     left:20px;
     top:10px;
     border:6px solid;
+    border-color:hsl(196, 69%, 32%);
 }
 
 main *{
@@ -84,5 +98,7 @@ main *{
 
 main h1{
     border-right: 4px solid;
+    color:hsl(196, 69%, 32%);
+    border-color:hsl(196, 69%, 32%);
     justify-self:end;
 }
