@@ -27,6 +27,11 @@ header ul li:hover{
     cursor:grab;
 }
 
+a{
+    text-decoration:none;
+    color:hsl(181, 42%, 73%);
+}
+
 header ul li{
     display:inline;
     font-size:25px;
@@ -73,7 +78,7 @@ main *{
 
 .grid-container{
     display:grid;
-    grid: repeat(5, 250px) / 200px 375px 375px;
+    grid: 250px 485px repeat(3, 250px) / 200px 375px 375px;
     justify-content:center;
     grid-gap:20px;
     align-content:end;
@@ -95,6 +100,15 @@ main *{
 #work-example1{
     grid-column-start:2;
     grid-column-end:4;
+    background-color:hsl(180, 41%, 24%);
+    border:5px solid;
+    border-color:hsl(181, 42%, 73%);
+}
+
+.example{
+    background-color:hsl(180, 41%, 24%);
+    border:5px solid;
+    border-color:hsl(181, 42%, 73%);
 }
 
 main h1{
@@ -102,4 +116,24 @@ main h1{
     color:hsl(196, 69%, 32%);
     border-color:hsl(196, 69%, 32%);
     justify-self:end;
+}
+
+.Surf{
+    font-size:27px;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:hsl(181, 42%, 73%);
+    width:200px;
+    height:70px;
+    color:hsl(196, 69%, 32%);
+    text-align:center;
+    margin-top:310px;
+    padding-top:9px;
+}
+
+.MERN{
+    font-size:small;
+    text-align:left;
+    margin-left:29px;
+    margin-top:8px;
 }
