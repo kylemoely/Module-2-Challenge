@@ -141,7 +141,21 @@ main h1{
 }
 
 #contact1{
-    background-color:lightcoral;
     grid-column-start:2;
     grid-column-end:4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#contact1 ul li{
+    color:hsl(180, 41%, 24%);
+    display:inline;
+    margin:20px;
+}
+
+#contact1 ul li a{
+    text-decoration:underline;
+    color:hsl(180, 41%, 24%);
+    font-size:20px;
 }
